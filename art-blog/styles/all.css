@@ -1,0 +1,74 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+@font-face{
+	font-family: worksans;
+	src: url("../fonts/WorkSans-Thin.ttf");
+}
+body{
+	display: grid;
+	grid-template-rows: 142px 109px;
+}
+header{
+	font-family: "Open Sans", sans-serif;
+	background: black;
+	color: #ededec;
+	display: grid;
+	grid-template-columns: 185.5px 1fr 185.5px;
+	position: sticky;
+	top: 0;
+}
+header nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+h1{
+	text-transform: uppercase;
+	font-family: worksans;
+	font-weight: 100;
+	font-size: 30px;
+	display: inline;
+	letter-spacing: -2px;
+}
+#brand{
+	display: flex;
+}
+#brand h2{
+	text-transform: uppercase;
+	font-family: "Open Sans", sans-serif;
+	font-size: 13px;
+	letter-spacing: 1.3px;
+	font-weight: normal;
+}
+#name{
+	text-align: center;
+	box-sizing: border-box;
+	padding: 5px;
+}
+header a{
+	text-decoration: none;
+	color: inherit;
+}
+.active{
+	color: #72C1BF;
+}
+#menu{
+	font-size: 13px;
+	width: 380px;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 20px;
+
+}
+#menu li{
+	display: inline-block;
+}
+main{
+	font-family: Arial,Helvetica,sans-serif;
+}
+footer{
+	background: red;
+}
