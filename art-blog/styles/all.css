@@ -7,18 +7,21 @@
 	font-family: worksans;
 	src: url("../fonts/WorkSans-Thin.ttf");
 }
-body{
-	display: grid;
-	grid-template-rows: 142px 109px;
+@media (max-width:650px){
+	#logo{
+		display: none;
+	}
+	#brand{
+		margin-left: 20px;
+	}
 }
+
 header{
 	font-family: "Open Sans", sans-serif;
 	background: black;
 	color: #ededec;
 	display: grid;
-	grid-template-columns: 185.5px 1fr 185.5px;
-	position: sticky;
-	top: 0;
+	grid-template-columns: calc((100% - 980px) * 0.5) 1fr calc((100% - 980px) * 0.5);
 }
 header nav{
 	display: flex;
@@ -39,7 +42,7 @@ h1{
 #brand h2{
 	text-transform: uppercase;
 	font-family: "Open Sans", sans-serif;
-	font-size: 13px;
+	font-size: 12px;
 	letter-spacing: 1.3px;
 	font-weight: normal;
 }
@@ -55,20 +58,55 @@ header a{
 .active{
 	color: #72C1BF;
 }
-#menu{
-	font-size: 13px;
-	width: 380px;
-	display: flex;
-	justify-content: space-around;
-	margin-top: 20px;
-
+@media (max-width:590px){
+	body{
+		display: grid;
+		grid-template-rows: 94px 1fr 99px;
+	}
+	#menu {
+		display: none;
+	}
+	#hamburger{
+		width: 25px;
+		height: 25px;
+		margin-right: 30px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+}
+@media (min-width:590px){
+	body{
+		display: grid;
+		grid-template-rows: 142px 1fr 109px;
+	}
+	header{
+		position: sticky;
+		top: 0;
+	}
+	#menu{
+		font-size: 13px;
+		width: 380px;
+		display: flex;
+		justify-content: space-around;
+		margin-top: 20px;
+	}
+	#hamburger{
+		display: none;
+	}
 }
 #menu li{
 	display: inline-block;
 }
+
+#hamburger div{
+	background: white;
+	height: 4px;
+}
+
 main{
 	font-family: Arial,Helvetica,sans-serif;
 }
 footer{
-	background: red;
+	background: black;
 }
