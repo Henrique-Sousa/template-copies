@@ -1,0 +1,1 @@
+This is a copy of [this template](https://www.wix.com/website-template/view/html/1335/?siteId=fb238d2a-eb2d-4891-b581-8fc440f38ea0&metaSiteId=9c0b213a-9c6d-4e08-a2d9-f1db38659857&originUrl=https%3A%2F%2Fwww.wix.com%2Fwebsite%2Ftemplates) by Wix.com
