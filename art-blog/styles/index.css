@@ -1,0 +1,79 @@
+main{
+	color: #222;
+}
+.card{
+	width: 290px;
+	border: 1px solid rgba(205,205,201,1);
+	display: inline-block;
+	margin-left: 200px;/*delete*/
+		font-family: "Open Sans", sans-serif;
+
+}
+.card-image{
+	width: 290px;
+}
+.card-header{
+	display: grid;
+	grid-template-columns: 40px 1fr 1fr;
+}
+.post-data{
+	display: flex;
+	flex-direction: column;
+}
+@import url('https://fonts.googleapis.com/css?family=Lato');
+.card h2{
+	font-size: 22px;
+	font-weight: 100;
+	font-family: 'Lato', sans-serif;
+	margin-top: 11px;
+	margin-bottom: 11px;
+}
+.card-header h3{
+	font-size: 13px;
+	font-weight: 100;
+}
+.post-time{
+	font-size: 13px;
+	font-weight: 100;
+	display: flex;
+	flex-direction: row;
+}
+.dot{
+	width: 2px;
+	height: 2px;
+	background: black;
+	border-radius: 50%;	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 6px;
+}
+.card-text{
+	padding: 20px;
+	font-size: 13px;
+}
+.profile-picture{
+	width: 32px;
+}
+.card-description{
+	margin-bottom: 23px;
+}
+.kebab{
+	justify-self: end;
+	align-self: center;
+}
+.card-footer{
+	display: flex;
+	border-top: 1px solid rgba(205,205,201,1);
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 10px;
+}
+
+.views{
+	display: flex;
+	align-items: center;
+}
+.view-count{
+	margin: 5px;
+}
