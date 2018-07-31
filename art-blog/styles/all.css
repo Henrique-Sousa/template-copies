@@ -24,6 +24,8 @@ a{
 	background: black;
 	color: #ededec;
 	display: grid;
+}
+.with-margin{
 	grid-template-columns: calc((100% - 980px) * 0.5) 1fr calc((100% - 980px) * 0.5);
 }
 #page-header nav{

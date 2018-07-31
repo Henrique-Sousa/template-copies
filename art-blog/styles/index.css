@@ -1,13 +1,19 @@
 main{
 	color: #222;
+	display: grid;
+	margin-bottom: 80px;
+	margin-left: 10px;
 }
 .card{
 	width: 290px;
 	border: 1px solid rgba(205,205,201,1);
 	display: inline-block;
-	margin-left: 200px;/*delete*/
-		font-family: "Open Sans", sans-serif;
-
+	font-family: "Open Sans", sans-serif;
+	margin-right: 20px;
+	margin-top: 30px;
+}
+.top-card{
+	vertical-align: top;
 }
 .card-image{
 	width: 290px;
@@ -76,4 +82,19 @@ main{
 }
 .view-count{
 	margin: 5px;
+}
+#feed-header{
+	display: grid;
+	grid-template-columns: 1fr 0.25fr;
+	align-items: center;
+	color:rgba(114,193,191,1);
+	font-family: "Open Sans", sans-serif;
+	font-size: 13px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#login-signup{
+	border: solid 1px rgba(114,193,191,1);
+	padding: 8px 20px;
+	font-size: 15px;
 }
